@@ -18,3 +18,4 @@ es_estudiante = True # booleano
 
 
 saludo = "Hola, mi nombre es " + nombre + " y tengo " + str(edad) + " años."
+print (saludo)
