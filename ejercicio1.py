@@ -11,7 +11,7 @@
 # 3. cadenas de texto (str)
 # 4. booleanos (bool)
 
-edad = 20 # entero
+"""edad = 20 # entero
 altura = 1.75 # flotante
 nombre = "Juan" # cadena de texto
 es_estudiante = True # booleano
@@ -19,3 +19,13 @@ es_estudiante = True # booleano
 
 saludo = "Hola, mi nombre es " + nombre + " y tengo " + str(edad) + " años."
 print (saludo)
+"""
+
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+dato_desconocido = input("Ingrese un dato desconocido: ")
+dato_ramdom = input("Ingrese un dato random: ")
+
+print("Hola, " + nombre + ". Tienes " + str(edad) + " años.")
+
+
